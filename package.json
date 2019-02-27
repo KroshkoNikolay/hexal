@@ -4,7 +4,7 @@
   "description": "RS School first test layout task",
   "main": "index.js",
   "scripts": {
-    "live": "live-server --browser=chrome --watch=./css,./assets,*.html --entry-file=./index.html"
+    "start": "live-server --browser=chrome --watch=./css,./assets,*.html --entry-file=./index.html"
   },
   "repository": {
     "type": "git",

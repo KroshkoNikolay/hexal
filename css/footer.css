@@ -1,0 +1,10 @@
+.footer{
+  background-color: #222222;
+}
+
+.copyright{
+  font-family: Maven Pro, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 12px;
+  padding: 11px 40px;
+  color: #454545;
+}

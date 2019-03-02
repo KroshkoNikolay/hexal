@@ -1,7 +1,180 @@
-@import "./normalize.css";
-@import "./fonts.css";
+/************** GENERAL START **************/
 
-@import "./general.css";
-@import "./header.css";
-@import "./main.css";
-@import "./footer.css";
+html{
+  height: 100%;
+}
+
+body {
+  font-family: Lato, AdobeInvisFont, MyriadPro-Regular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background-color: #ffffff;
+  min-width: 1020px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+svg{
+  width: 2rem;
+  height: 2rem;
+  fill: #2eb398;
+}
+
+.container {
+  width: 1020px;
+  margin: auto;
+}
+
+.hidden {
+  height: 0 !important;
+  width: 0 !important;
+  line-height: 0 !important;
+  opacity: 0 !important;
+}
+
+.flex-container{
+  display: flex;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/************** GENERAL END **************/
+
+/************** HEADER START **************/
+
+.header{
+  background-color: #323232;
+}
+
+/************** HEADER END **************/
+
+/************** MAIN START **************/
+
+.main{
+  flex: 1;
+  color: #d7fcf5;
+  display: flex;
+  flex-direction: column;
+}
+
+/*------------- slider start ------------*/
+
+/*------------- slider end ------------*/
+
+/*------------- about start ------------*/
+
+.about{
+  background-color: #2eb398;
+  flex: 1;
+}
+  
+/*------------- about end ------------*/
+
+/*------------- contact form start ------------*/
+
+.contact{
+  background-color: #323232;
+  color: #bebebe;
+}
+
+.contact .container{
+  padding: 65px 120px;
+}
+
+.form-container{
+  width: 600px;
+  padding-right: 20px;
+}
+
+.contact_form-item {
+  color: inherit;
+  background-color: #454545;
+  display: block;
+  width: 100%;
+  border: none;
+  margin-top: 16px;
+  padding: 8px 14px;
+  line-height: inherit;
+}
+
+.contact_form-item::-webkit-input-placeholder{
+  color: inherit;
+}
+
+.contact_form-item--text{
+  resize: none;
+  height: 150px;
+}
+
+.contact_form-item--button{
+  background-color: #2eb398;
+  text-transform: uppercase;
+  text-align: center;
+  width: 90px;
+  margin-left: auto;
+  color: #d7fcf5;
+  font-weight: 700;
+}
+
+.form_desc{
+  flex: 1;
+}
+
+.form_desc-text{
+  text-align: justify;
+  margin: 10px 0;
+}
+
+.form_desc-text--black{
+  font-weight: 900;
+}
+
+.form_desc-list{
+  margin-top: 30px;
+}
+
+.form_desc-link{
+  color: inherit;
+  text-decoration: none;
+  position: relative;
+  padding-left: 23px;
+}
+
+.form_desc-link .icon{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 75%;
+  width: auto;
+}
+
+/*------------- contact form end ------------*/
+/************** MAIN END **************/
+
+/************** FOOTER START **************/
+
+.footer{
+  background-color: #222222;
+}
+
+.copyright{
+  font-family: Maven Pro, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 12px;
+  padding: 11px 40px;
+  color: #454545;
+}
+
+/************** FOOTER END **************/

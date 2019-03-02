@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Hexal</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -26,9 +28,50 @@
     </section>
     <section class="section contact">
       <div class="container">
-        <h2 class="header">Get In Touch</h2>
-        <p class="subheader">In order to get in touch use the contact form below:</p>
-
+        <h2 class="contact-header">Get In Touch</h2>
+        <p class="contact-subheader">In order to get in touch use the contact form below:</p>
+        <div class="flex-container">
+          <div class="form-container">
+            <form class="contact_form" action="#" method="POST">
+              <input class="contact_form-item contact_form-item--input" type="text" name="name" required placeholder="Name (Required)">
+              <input class="contact_form-item contact_form-item--input" type="email" name="mail" required placeholder="Email (Required)">
+              <input class="contact_form-item contact_form-item--input" type="text" name="subject" placeholder="Subject">
+              <textarea class="contact_form-item contact_form-item--text" name="message" placeholder="Write your message here..."></textarea>
+              <button class="contact_form-item contact_form-item--button" type="submit">Send</button>
+            </form>
+          </div>
+          <div class="form_desc">
+            <p class="form_desc-text">
+              <span class="form_desc-text--black">Quisque Hendrerit:</span>
+              purus dapi&shy;bus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus morbi vitae.</p>
+            <ul class="form_desc-list">
+              <li class="form_desc-list_item">
+                <a class="form_desc-link form_desc-link--address" href="https://www.google.com/maps/search/Elm+St.+14%2F05+Lost+City" target="_blank">
+                  <svg class="icon" height="20" width="20">
+                    <use xlink:href="./assets/images/sprite.svg#map_mark"></use>
+                  </svg>
+                  Elm St. 14/05 Lost City
+                </a>
+              </li>
+              <li class="form_desc-list_item">
+                <a class="form_desc-link form_desc-link--phone" href="tel:+35283318635">
+                  <svg class="icon" height="20" width="20">
+                    <use xlink:href="./assets/images/sprite.svg#phone"></use>
+                  </svg>
+                  + 3528 331 86 35
+                </a>
+              </li>
+              <li class="form_desc-list_item">
+                <a class="form_desc-link form_desc-link--phone"  href="mailto:info@hexalcorp.com">
+                  <svg class="icon" height="20" width="20">
+                    <use xlink:href="./assets/images/sprite.svg#mail"></use>
+                  </svg>
+                  info@hexalcorp.com
+                </a>
+              </li> 
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
   </main>

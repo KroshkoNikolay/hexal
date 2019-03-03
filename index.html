@@ -17,19 +17,82 @@
   </header>
   <main class="main">
     <section class="section slider">
-      <h2 class="hidden">Slider</h2>
+      <h2 class="hidden">Slider Section</h2>
       <div class="container">
       </div>
     </section>
     <section class="section about">
-      <h2 class="hidden">About</h2>
+      <h2 class="hidden">About Section</h2>
       <div class="container">
+        <figure class="about-figure">
+          <div class="hex-root">
+            <div class="hex-child">
+              <div class="hex-grandchild">
+                <picture class="hex-picture">
+                  <source srcset="./assets/images/webp/about@1x.webp 1x, ./assets/images/webp/about@2x.webp 2x" type="image/webp">
+                  <source srcset="./assets/images/about@1x.jpeg 1x, ./assets/images/about@2x.jpeg 2x" type="image/jpeg"/>
+                  <img src="./assets/images/about@1x.jpeg" alt="avatar">
+                </picture>
+              </div>
+            </div>
+          </div>
+          <figcaption class="about-text_container">
+            <h3 class="section_header">Smith Anderson</h3>
+            <h4 class="section_subheader section_subheader--about">Illustrator & Character Designer</h4>
+            <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Integer gravida, diam congue molestie fringilla, elit odio rhon&shy;cus turpis, ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna</p>
+            <ul class="socials-list">
+              <li class="socials-item">
+                <a href="#" class="socials-link">
+                  <svg class="icon" height="20px" width="20px">
+                    <use xlink:href="./assets/images/sprite.svg#facebook"></use> 
+                  </svg> 
+                </a>
+              </li>
+              <li class="socials-item">
+                <a href="#" class="socials-link">
+                  <svg class="icon" height="20px" width="20px">
+                    <use xlink:href="./assets/images/sprite.svg#twitter"></use> 
+                  </svg> 
+                </a>
+              </li>
+              <li class="socials-item">
+                <a class="socials-link disabled" tabindex="-1">
+                  <svg class="icon" height="20px" width="20px">
+                    <use xlink:href="./assets/images/sprite.svg#google-plus"></use> 
+                  </svg> 
+                </a>
+              </li>
+              <li class="socials-item">
+                <a href="#" class="socials-link">
+                  <svg class="icon" height="20px" width="20px">
+                    <use xlink:href="./assets/images/sprite.svg#pinterest"></use> 
+                  </svg> 
+                </a>
+              </li>
+              <li class="socials-item">
+                <a href="#" class="socials-link">
+                  <svg class="icon" height="20px" width="20px">
+                    <use xlink:href="./assets/images/sprite.svg#linkedin"></use> 
+                  </svg> 
+                </a>
+              </li>
+              <li class="socials-item">
+                <a class="socials-link disabled" tabindex="-1">
+                  <svg class="icon" height="20px" width="20px">
+                    <use xlink:href="./assets/images/sprite.svg#dribbble"></use> 
+                  </svg> 
+                </a>
+              </li>
+            </ul>
+          </figcaption>
+        </figure>
       </div>
     </section>
     <section class="section contact">
       <div class="container">
-        <h2 class="contact-header">Get In Touch</h2>
-        <p class="contact-subheader">In order to get in touch use the contact form below:</p>
+        <h2 class="hidden">Contact Form Section</h2>
+        <h3 class="section_header section_header--contact">Get In Touch</h3>
+        <h4 class="section_subheader">In order to get in touch use the contact form below:</h4>
         <div class="flex-container">
           <div class="form-container">
             <form class="contact_form" action="#" method="POST">

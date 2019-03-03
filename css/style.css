@@ -53,6 +53,7 @@ ul{
   overflow: hidden;
   width: 180px;
   height: 206px;
+  display: inline-block;
 }
 
 .hex-child{
@@ -106,6 +107,26 @@ figure{
 
 .header{
   background-color: #323232;
+  height: 63px;
+}
+
+.nav-list{
+  list-style-type: none;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list_item{
+
+}
+
+.nav-link{
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 10px;
+  font-family: Maven Pro, AdobeInvisFont, MyriadPro-Regular;
 }
 
 /************** HEADER END **************/
@@ -120,6 +141,63 @@ figure{
 }
 
 /*------------- slider start ------------*/
+
+.slider{
+  flex: 1;
+  color: #d7fcf5;
+}
+
+.slider .container{
+  padding: 90px 120px;
+}
+
+.slider .container:after{
+  content: '';
+  display: block;
+  position: absolute;
+  height: 1px;
+  width: calc(100% - 60px);
+  left: 30px;
+  background-color: #e4e9eb;
+  bottom: 12px;
+}
+    
+.hex-list{
+  display: flex;
+}
+
+.hex-list:nth-child(even){
+  width: calc(100% + 200px);
+  margin: -38px -100px;
+}
+
+.hex-list:nth-child(odd){
+  position: relative;
+}
+
+.hex-list:nth-child(odd):before,
+.hex-list:nth-child(odd):after{
+  content: '';
+  display: block;
+  position: absolute;
+  height: 50%;
+  width: 1px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #e4e9eb;
+}
+    
+.hex-list:nth-child(odd):before{
+  right: calc(100% + 20px)
+}
+
+.hex-list:nth-child(odd):after{
+  left: calc(100% + 20px)
+}
+
+.slider .hex-root:not(:last-child){
+  margin-right: 20px;
+}
 
 /*------------- slider end ------------*/
 

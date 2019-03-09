@@ -1,16 +1,17 @@
 /************** GENERAL START **************/
 
 html{
-  height: 100%;
-}
-
-body {
   font-family: Lato, AdobeInvisFont, MyriadPro-Regular;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.83;
 
+  height: 100%;
+  scroll-behavior: smooth;
+}  
+
+body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
@@ -250,6 +251,73 @@ figure{
   background-color: #e4e9eb;
   bottom: 12px;
 }
+
+.slider_container{
+  width: calc(100% + 240px);
+  margin-left: -120px;
+  overflow: hidden;
+}
+
+.slides_container{
+  width: 600%;
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.slider_labels_container{
+  position: absolute;
+  left: 30px;
+  bottom: calc(2rem + 1px);
+  line-height: 0;
+}
+
+.slider_radio_label{
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #ddd2c5;
+}
+
+.slider_radio_two:checked ~ .slider_labels_container .slider_radio_label--two,
+.slider_radio_one:checked ~ .slider_labels_container .slider_radio_label--one,
+.slider_radio_three:checked ~ .slider_labels_container .slider_radio_label--three,
+.slider_radio_four:checked ~ .slider_labels_container .slider_radio_label--four,
+.slider_radio_five:checked ~ .slider_labels_container .slider_radio_label--five,
+.slider_radio_six:checked ~ .slider_labels_container .slider_radio_label--six,
+.slider_radio_label--two:hover,
+.slider_radio_label--one:hover,
+.slider_radio_label--three:hover,
+.slider_radio_label--four:hover,
+.slider_radio_label--five:hover,
+.slider_radio_label--six:hover{
+  background-color: #8b8784;
+}
+
+.slider_radio_one:checked ~ .slides_container{
+  transform: translateX(0)
+}
+
+.slider_radio_two:checked ~ .slides_container{
+  transform: translateX(calc(-100% / 6))
+}
+
+.slider_radio_three:checked ~ .slides_container{
+  transform: translateX(calc(-100% / 3))
+}
+
+.slider_radio_four:checked ~ .slides_container{
+  transform: translateX(calc(-100% / 2))
+}
+
+.slider_radio_five:checked ~ .slides_container{
+  transform: translateX(calc(-100% / 1.5))
+}
+
+.slider_radio_six:checked ~ .slides_container{
+  transform: translateX(calc(-100% / 6 * 5))
+}
+
+
     
 .hex-list{
   display: flex;
@@ -257,11 +325,12 @@ figure{
 
 .hex-list:nth-child(even){
   width: calc(100% + 200px);
-  margin: -38px -100px;
+  margin: -38px 20px;
 }
 
 .hex-list:nth-child(odd){
   position: relative;
+  margin: 0 120px;
 }
 
 .hex-list:nth-child(odd):before,

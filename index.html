@@ -28,7 +28,8 @@
               <a href="" class="nav-link">
                 <svg class="icon" width="60">
                   <use xlink:href="./assets/images/Logo.svg#Logo"></use> 
-                </svg> 
+                </svg>
+                <span class="hidden">main page</span>
               </a>
             </li>
           </div>
@@ -47,155 +48,938 @@
     <section class="section slider" id="portfolio">
       <h2 class="hidden">Slider Section</h2>
       <div class="container">
-        <div class="hex-list hex-list--first">
-          <div class="hex-root">
-            <div class="hex-child">
-              <div class="hex-grandchild">
-                <picture class="hex-picture">
-                  <source srcset="./assets/images/webp/Layer_33@1X.webp 1x, ./assets/images/webp/Layer_33@2X.webp 2x" type="image/webp">
-                  <source srcset="./assets/images/Layer_33@1X.jpeg 1x, ./assets/images/Layer_33@2X.jpeg 2x" type="image/jpeg"/>
-                  <img src="./assets/images/Layer_33@1X.jpeg" alt="hexagon image 1">
-                </picture>
-              </div>
-            </div>
+        <div class='slider_container'>
+          <input class="slider_radio slider_radio_one hidden" type='radio' id='one' value='one' name='slider'>
+          <input class="slider_radio slider_radio_two hidden" type='radio' id='two' value='two' name='slider'>
+          <input class="slider_radio slider_radio_three hidden" type='radio' id='three' value='three' name='slider' checked='checked'>
+          <input class="slider_radio slider_radio_four hidden" type='radio' id='four' value='four' name='slider'>
+          <input class="slider_radio slider_radio_five hidden" type='radio' id='five' value='five' name='slider'>
+          <input class="slider_radio slider_radio_six hidden" type='radio' id='six' value='six' name='slider'>
+          <div class="slider_labels_container">
+            <label class='slider_radio_label slider_radio_label--one' for='one'></label>
+            <label class='slider_radio_label slider_radio_label--two' for='two'></label>
+            <label class='slider_radio_label slider_radio_label--three' for='three'></label>
+            <label class='slider_radio_label slider_radio_label--four' for='four'></label>
+            <label class='slider_radio_label slider_radio_label--five' for='five'></label>
+            <label class='slider_radio_label slider_radio_label--six' for='six'></label>
           </div>
-          <div class="hex-root">
-            <div class="hex-child">
-              <div class="hex-grandchild">
-                <picture class="hex-picture">
-                  <source srcset="./assets/images/webp/Layer_31@1X.webp 1x, ./assets/images/webp/Layer_31@2X.webp 2x" type="image/webp">
-                  <source srcset="./assets/images/Layer_31@1X.jpeg 1x, ./assets/images/Layer_31@2X.jpeg 2x" type="image/jpeg"/>
-                  <img src="./assets/images/Layer_31@1X.jpeg" alt="hexagon image 1">
-                </picture>
-              </div>
+          <div class='slides_container'>
+            <div class="slide">
+                <div class="hex-list hex-list--first">
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_33@1X.webp 1x, ./assets/images/webp/Layer_33@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_33@1X.jpeg 1x, ./assets/images/Layer_33@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_33@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_31@1X.webp 1x, ./assets/images/webp/Layer_31@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_31@1X.jpeg 1x, ./assets/images/Layer_31@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_31@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_34@1X.webp 1x, ./assets/images/webp/Layer_34@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_34@1X.jpeg 1x, ./assets/images/Layer_34@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_34@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_35@1X.webp 1x, ./assets/images/webp/Layer_35@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_35@1X.jpeg 1x, ./assets/images/Layer_35@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_35@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="hex-list hex-list--second">
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_36@1X.webp 1x, ./assets/images/webp/Layer_36@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_36@1X.jpeg 1x, ./assets/images/Layer_36@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_36@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_44@1X.webp 1x, ./assets/images/webp/Layer_44@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_44@1X.jpeg 1x, ./assets/images/Layer_44@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_44@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_37@1X.webp 1x, ./assets/images/webp/Layer_37@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_37@1X.jpeg 1x, ./assets/images/Layer_37@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_37@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_38@1X.webp 1x, ./assets/images/webp/Layer_38@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_38@1X.jpeg 1x, ./assets/images/Layer_38@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_38@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_39@1X.webp 1x, ./assets/images/webp/Layer_39@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_39@1X.jpeg 1x, ./assets/images/Layer_39@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_39@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="hex-list hex-list--third">
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_40@1X.webp 1x, ./assets/images/webp/Layer_40@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_40@1X.jpeg 1x, ./assets/images/Layer_40@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_40@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_41@1X.webp 1x, ./assets/images/webp/Layer_41@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_41@1X.jpeg 1x, ./assets/images/Layer_41@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_41@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_43@1X.webp 1x, ./assets/images/webp/Layer_43@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_43@1X.jpeg 1x, ./assets/images/Layer_43@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_43@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_42@1X.webp 1x, ./assets/images/webp/Layer_42@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_42@1X.jpeg 1x, ./assets/images/Layer_42@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_42@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
-          </div>
-          <div class="hex-root">
-            <div class="hex-child">
-              <div class="hex-grandchild">
-                <picture class="hex-picture">
-                  <source srcset="./assets/images/webp/Layer_34@1X.webp 1x, ./assets/images/webp/Layer_34@2X.webp 2x" type="image/webp">
-                  <source srcset="./assets/images/Layer_34@1X.jpeg 1x, ./assets/images/Layer_34@2X.jpeg 2x" type="image/jpeg"/>
-                  <img src="./assets/images/Layer_34@1X.jpeg" alt="hexagon image 1">
-                </picture>
-              </div>
+            <div class="slide">
+                <div class="hex-list hex-list--first">
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_33@1X.webp 1x, ./assets/images/webp/Layer_33@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_33@1X.jpeg 1x, ./assets/images/Layer_33@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_33@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_31@1X.webp 1x, ./assets/images/webp/Layer_31@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_31@1X.jpeg 1x, ./assets/images/Layer_31@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_31@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_34@1X.webp 1x, ./assets/images/webp/Layer_34@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_34@1X.jpeg 1x, ./assets/images/Layer_34@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_34@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_35@1X.webp 1x, ./assets/images/webp/Layer_35@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_35@1X.jpeg 1x, ./assets/images/Layer_35@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_35@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="hex-list hex-list--second">
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_36@1X.webp 1x, ./assets/images/webp/Layer_36@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_36@1X.jpeg 1x, ./assets/images/Layer_36@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_36@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_44@1X.webp 1x, ./assets/images/webp/Layer_44@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_44@1X.jpeg 1x, ./assets/images/Layer_44@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_44@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_37@1X.webp 1x, ./assets/images/webp/Layer_37@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_37@1X.jpeg 1x, ./assets/images/Layer_37@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_37@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_38@1X.webp 1x, ./assets/images/webp/Layer_38@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_38@1X.jpeg 1x, ./assets/images/Layer_38@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_38@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_39@1X.webp 1x, ./assets/images/webp/Layer_39@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_39@1X.jpeg 1x, ./assets/images/Layer_39@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_39@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="hex-list hex-list--third">
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_40@1X.webp 1x, ./assets/images/webp/Layer_40@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_40@1X.jpeg 1x, ./assets/images/Layer_40@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_40@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_41@1X.webp 1x, ./assets/images/webp/Layer_41@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_41@1X.jpeg 1x, ./assets/images/Layer_41@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_41@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_43@1X.webp 1x, ./assets/images/webp/Layer_43@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_43@1X.jpeg 1x, ./assets/images/Layer_43@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_43@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_42@1X.webp 1x, ./assets/images/webp/Layer_42@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_42@1X.jpeg 1x, ./assets/images/Layer_42@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_42@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
-          </div>
-          <div class="hex-root">
-            <div class="hex-child">
-              <div class="hex-grandchild">
-                <picture class="hex-picture">
-                  <source srcset="./assets/images/webp/Layer_35@1X.webp 1x, ./assets/images/webp/Layer_35@2X.webp 2x" type="image/webp">
-                  <source srcset="./assets/images/Layer_35@1X.jpeg 1x, ./assets/images/Layer_35@2X.jpeg 2x" type="image/jpeg"/>
-                  <img src="./assets/images/Layer_35@1X.jpeg" alt="hexagon image 1">
-                </picture>
-              </div>
+            <div class="slide">
+                <div class="hex-list hex-list--first">
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_33@1X.webp 1x, ./assets/images/webp/Layer_33@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_33@1X.jpeg 1x, ./assets/images/Layer_33@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_33@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_31@1X.webp 1x, ./assets/images/webp/Layer_31@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_31@1X.jpeg 1x, ./assets/images/Layer_31@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_31@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_34@1X.webp 1x, ./assets/images/webp/Layer_34@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_34@1X.jpeg 1x, ./assets/images/Layer_34@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_34@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_35@1X.webp 1x, ./assets/images/webp/Layer_35@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_35@1X.jpeg 1x, ./assets/images/Layer_35@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_35@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="hex-list hex-list--second">
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_36@1X.webp 1x, ./assets/images/webp/Layer_36@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_36@1X.jpeg 1x, ./assets/images/Layer_36@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_36@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_44@1X.webp 1x, ./assets/images/webp/Layer_44@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_44@1X.jpeg 1x, ./assets/images/Layer_44@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_44@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_37@1X.webp 1x, ./assets/images/webp/Layer_37@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_37@1X.jpeg 1x, ./assets/images/Layer_37@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_37@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_38@1X.webp 1x, ./assets/images/webp/Layer_38@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_38@1X.jpeg 1x, ./assets/images/Layer_38@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_38@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_39@1X.webp 1x, ./assets/images/webp/Layer_39@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_39@1X.jpeg 1x, ./assets/images/Layer_39@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_39@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="hex-list hex-list--third">
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_40@1X.webp 1x, ./assets/images/webp/Layer_40@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_40@1X.jpeg 1x, ./assets/images/Layer_40@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_40@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_41@1X.webp 1x, ./assets/images/webp/Layer_41@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_41@1X.jpeg 1x, ./assets/images/Layer_41@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_41@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_43@1X.webp 1x, ./assets/images/webp/Layer_43@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_43@1X.jpeg 1x, ./assets/images/Layer_43@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_43@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_42@1X.webp 1x, ./assets/images/webp/Layer_42@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_42@1X.jpeg 1x, ./assets/images/Layer_42@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_42@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="hex-list hex-list--first">
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_33@1X.webp 1x, ./assets/images/webp/Layer_33@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_33@1X.jpeg 1x, ./assets/images/Layer_33@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_33@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_31@1X.webp 1x, ./assets/images/webp/Layer_31@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_31@1X.jpeg 1x, ./assets/images/Layer_31@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_31@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_34@1X.webp 1x, ./assets/images/webp/Layer_34@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_34@1X.jpeg 1x, ./assets/images/Layer_34@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_34@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_35@1X.webp 1x, ./assets/images/webp/Layer_35@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_35@1X.jpeg 1x, ./assets/images/Layer_35@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_35@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="hex-list hex-list--second">
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_36@1X.webp 1x, ./assets/images/webp/Layer_36@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_36@1X.jpeg 1x, ./assets/images/Layer_36@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_36@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_44@1X.webp 1x, ./assets/images/webp/Layer_44@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_44@1X.jpeg 1x, ./assets/images/Layer_44@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_44@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_37@1X.webp 1x, ./assets/images/webp/Layer_37@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_37@1X.jpeg 1x, ./assets/images/Layer_37@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_37@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_38@1X.webp 1x, ./assets/images/webp/Layer_38@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_38@1X.jpeg 1x, ./assets/images/Layer_38@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_38@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_39@1X.webp 1x, ./assets/images/webp/Layer_39@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_39@1X.jpeg 1x, ./assets/images/Layer_39@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_39@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="hex-list hex-list--third">
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_40@1X.webp 1x, ./assets/images/webp/Layer_40@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_40@1X.jpeg 1x, ./assets/images/Layer_40@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_40@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_41@1X.webp 1x, ./assets/images/webp/Layer_41@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_41@1X.jpeg 1x, ./assets/images/Layer_41@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_41@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_43@1X.webp 1x, ./assets/images/webp/Layer_43@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_43@1X.jpeg 1x, ./assets/images/Layer_43@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_43@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_42@1X.webp 1x, ./assets/images/webp/Layer_42@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_42@1X.jpeg 1x, ./assets/images/Layer_42@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_42@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="hex-list hex-list--first">
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_33@1X.webp 1x, ./assets/images/webp/Layer_33@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_33@1X.jpeg 1x, ./assets/images/Layer_33@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_33@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_31@1X.webp 1x, ./assets/images/webp/Layer_31@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_31@1X.jpeg 1x, ./assets/images/Layer_31@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_31@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_34@1X.webp 1x, ./assets/images/webp/Layer_34@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_34@1X.jpeg 1x, ./assets/images/Layer_34@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_34@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_35@1X.webp 1x, ./assets/images/webp/Layer_35@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_35@1X.jpeg 1x, ./assets/images/Layer_35@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_35@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="hex-list hex-list--second">
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_36@1X.webp 1x, ./assets/images/webp/Layer_36@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_36@1X.jpeg 1x, ./assets/images/Layer_36@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_36@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_44@1X.webp 1x, ./assets/images/webp/Layer_44@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_44@1X.jpeg 1x, ./assets/images/Layer_44@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_44@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_37@1X.webp 1x, ./assets/images/webp/Layer_37@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_37@1X.jpeg 1x, ./assets/images/Layer_37@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_37@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_38@1X.webp 1x, ./assets/images/webp/Layer_38@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_38@1X.jpeg 1x, ./assets/images/Layer_38@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_38@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_39@1X.webp 1x, ./assets/images/webp/Layer_39@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_39@1X.jpeg 1x, ./assets/images/Layer_39@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_39@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="hex-list hex-list--third">
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_40@1X.webp 1x, ./assets/images/webp/Layer_40@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_40@1X.jpeg 1x, ./assets/images/Layer_40@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_40@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_41@1X.webp 1x, ./assets/images/webp/Layer_41@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_41@1X.jpeg 1x, ./assets/images/Layer_41@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_41@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_43@1X.webp 1x, ./assets/images/webp/Layer_43@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_43@1X.jpeg 1x, ./assets/images/Layer_43@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_43@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_42@1X.webp 1x, ./assets/images/webp/Layer_42@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_42@1X.jpeg 1x, ./assets/images/Layer_42@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_42@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="hex-list hex-list--first">
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_33@1X.webp 1x, ./assets/images/webp/Layer_33@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_33@1X.jpeg 1x, ./assets/images/Layer_33@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_33@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_31@1X.webp 1x, ./assets/images/webp/Layer_31@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_31@1X.jpeg 1x, ./assets/images/Layer_31@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_31@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_34@1X.webp 1x, ./assets/images/webp/Layer_34@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_34@1X.jpeg 1x, ./assets/images/Layer_34@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_34@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_35@1X.webp 1x, ./assets/images/webp/Layer_35@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_35@1X.jpeg 1x, ./assets/images/Layer_35@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_35@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="hex-list hex-list--second">
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_36@1X.webp 1x, ./assets/images/webp/Layer_36@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_36@1X.jpeg 1x, ./assets/images/Layer_36@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_36@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_44@1X.webp 1x, ./assets/images/webp/Layer_44@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_44@1X.jpeg 1x, ./assets/images/Layer_44@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_44@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_37@1X.webp 1x, ./assets/images/webp/Layer_37@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_37@1X.jpeg 1x, ./assets/images/Layer_37@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_37@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_38@1X.webp 1x, ./assets/images/webp/Layer_38@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_38@1X.jpeg 1x, ./assets/images/Layer_38@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_38@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_39@1X.webp 1x, ./assets/images/webp/Layer_39@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_39@1X.jpeg 1x, ./assets/images/Layer_39@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_39@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="hex-list hex-list--third">
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_40@1X.webp 1x, ./assets/images/webp/Layer_40@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_40@1X.jpeg 1x, ./assets/images/Layer_40@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_40@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_41@1X.webp 1x, ./assets/images/webp/Layer_41@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_41@1X.jpeg 1x, ./assets/images/Layer_41@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_41@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_43@1X.webp 1x, ./assets/images/webp/Layer_43@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_43@1X.jpeg 1x, ./assets/images/Layer_43@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_43@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hex-root">
+                    <div class="hex-child">
+                      <div class="hex-grandchild">
+                        <picture class="hex-picture">
+                          <source srcset="./assets/images/webp/Layer_42@1X.webp 1x, ./assets/images/webp/Layer_42@2X.webp 2x" type="image/webp">
+                          <source srcset="./assets/images/Layer_42@1X.jpeg 1x, ./assets/images/Layer_42@2X.jpeg 2x" type="image/jpeg"/>
+                          <img src="./assets/images/Layer_42@1X.jpeg" alt="hexagon image 1">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
           </div>
         </div>
-        <div class="hex-list hex-list--second">
-          <div class="hex-root">
-            <div class="hex-child">
-              <div class="hex-grandchild">
-                <picture class="hex-picture">
-                  <source srcset="./assets/images/webp/Layer_36@1X.webp 1x, ./assets/images/webp/Layer_36@2X.webp 2x" type="image/webp">
-                  <source srcset="./assets/images/Layer_36@1X.jpeg 1x, ./assets/images/Layer_36@2X.jpeg 2x" type="image/jpeg"/>
-                  <img src="./assets/images/Layer_36@1X.jpeg" alt="hexagon image 1">
-                </picture>
-              </div>
-            </div>
-          </div>
-          <div class="hex-root">
-            <div class="hex-child">
-              <div class="hex-grandchild">
-                <picture class="hex-picture">
-                  <source srcset="./assets/images/webp/Layer_44@1X.webp 1x, ./assets/images/webp/Layer_44@2X.webp 2x" type="image/webp">
-                  <source srcset="./assets/images/Layer_44@1X.jpeg 1x, ./assets/images/Layer_44@2X.jpeg 2x" type="image/jpeg"/>
-                  <img src="./assets/images/Layer_44@1X.jpeg" alt="hexagon image 1">
-                </picture>
-              </div>
-            </div>
-          </div>
-          <div class="hex-root">
-            <div class="hex-child">
-              <div class="hex-grandchild">
-                <picture class="hex-picture">
-                  <source srcset="./assets/images/webp/Layer_37@1X.webp 1x, ./assets/images/webp/Layer_37@2X.webp 2x" type="image/webp">
-                  <source srcset="./assets/images/Layer_37@1X.jpeg 1x, ./assets/images/Layer_37@2X.jpeg 2x" type="image/jpeg"/>
-                  <img src="./assets/images/Layer_37@1X.jpeg" alt="hexagon image 1">
-                </picture>
-              </div>
-            </div>
-          </div>
-          <div class="hex-root">
-            <div class="hex-child">
-              <div class="hex-grandchild">
-                <picture class="hex-picture">
-                  <source srcset="./assets/images/webp/Layer_38@1X.webp 1x, ./assets/images/webp/Layer_38@2X.webp 2x" type="image/webp">
-                  <source srcset="./assets/images/Layer_38@1X.jpeg 1x, ./assets/images/Layer_38@2X.jpeg 2x" type="image/jpeg"/>
-                  <img src="./assets/images/Layer_38@1X.jpeg" alt="hexagon image 1">
-                </picture>
-              </div>
-            </div>
-          </div>
-          <div class="hex-root">
-            <div class="hex-child">
-              <div class="hex-grandchild">
-                <picture class="hex-picture">
-                  <source srcset="./assets/images/webp/Layer_39@1X.webp 1x, ./assets/images/webp/Layer_39@2X.webp 2x" type="image/webp">
-                  <source srcset="./assets/images/Layer_39@1X.jpeg 1x, ./assets/images/Layer_39@2X.jpeg 2x" type="image/jpeg"/>
-                  <img src="./assets/images/Layer_39@1X.jpeg" alt="hexagon image 1">
-                </picture>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="hex-list hex-list--third">
-          <div class="hex-root">
-            <div class="hex-child">
-              <div class="hex-grandchild">
-                <picture class="hex-picture">
-                  <source srcset="./assets/images/webp/Layer_40@1X.webp 1x, ./assets/images/webp/Layer_40@2X.webp 2x" type="image/webp">
-                  <source srcset="./assets/images/Layer_40@1X.jpeg 1x, ./assets/images/Layer_40@2X.jpeg 2x" type="image/jpeg"/>
-                  <img src="./assets/images/Layer_40@1X.jpeg" alt="hexagon image 1">
-                </picture>
-              </div>
-            </div>
-          </div>
-          <div class="hex-root">
-            <div class="hex-child">
-              <div class="hex-grandchild">
-                <picture class="hex-picture">
-                  <source srcset="./assets/images/webp/Layer_41@1X.webp 1x, ./assets/images/webp/Layer_41@2X.webp 2x" type="image/webp">
-                  <source srcset="./assets/images/Layer_41@1X.jpeg 1x, ./assets/images/Layer_41@2X.jpeg 2x" type="image/jpeg"/>
-                  <img src="./assets/images/Layer_41@1X.jpeg" alt="hexagon image 1">
-                </picture>
-              </div>
-            </div>
-          </div>
-          <div class="hex-root">
-            <div class="hex-child">
-              <div class="hex-grandchild">
-                <picture class="hex-picture">
-                  <source srcset="./assets/images/webp/Layer_43@1X.webp 1x, ./assets/images/webp/Layer_43@2X.webp 2x" type="image/webp">
-                  <source srcset="./assets/images/Layer_43@1X.jpeg 1x, ./assets/images/Layer_43@2X.jpeg 2x" type="image/jpeg"/>
-                  <img src="./assets/images/Layer_43@1X.jpeg" alt="hexagon image 1">
-                </picture>
-              </div>
-            </div>
-          </div>
-          <div class="hex-root">
-            <div class="hex-child">
-              <div class="hex-grandchild">
-                <picture class="hex-picture">
-                  <source srcset="./assets/images/webp/Layer_42@1X.webp 1x, ./assets/images/webp/Layer_42@2X.webp 2x" type="image/webp">
-                  <source srcset="./assets/images/Layer_42@1X.jpeg 1x, ./assets/images/Layer_42@2X.jpeg 2x" type="image/jpeg"/>
-                  <img src="./assets/images/Layer_42@1X.jpeg" alt="hexagon image 1">
-                </picture>
-              </div>
-            </div>
-          </div>
-        </div>
+          
+
+
+
+
+      
+      
+      
       </div>
     </section>
     <section class="section about" id="about">
@@ -223,6 +1007,7 @@
                   <svg class="icon" height="20px" width="20px">
                     <use xlink:href="./assets/images/sprite.svg#facebook"></use> 
                   </svg> 
+                  <span class="hidden">facebook</span>
                 </a>
               </li>
               <li class="socials-item">
@@ -230,6 +1015,7 @@
                   <svg class="icon" height="20px" width="20px">
                     <use xlink:href="./assets/images/sprite.svg#twitter"></use> 
                   </svg> 
+                  <span class="hidden">twitter</span>
                 </a>
               </li>
               <li class="socials-item">
@@ -237,6 +1023,7 @@
                   <svg class="icon" height="20px" width="20px">
                     <use xlink:href="./assets/images/sprite.svg#google-plus"></use> 
                   </svg> 
+                  <span class="hidden">google-plus</span>
                 </a>
               </li>
               <li class="socials-item">
@@ -244,6 +1031,7 @@
                   <svg class="icon" height="20px" width="20px">
                     <use xlink:href="./assets/images/sprite.svg#pinterest"></use> 
                   </svg> 
+                  <span class="hidden">pinterest</span>
                 </a>
               </li>
               <li class="socials-item">
@@ -251,6 +1039,7 @@
                   <svg class="icon" height="20px" width="20px">
                     <use xlink:href="./assets/images/sprite.svg#linkedin"></use> 
                   </svg> 
+                  <span class="hidden">linkedin</span>
                 </a>
               </li>
               <li class="socials-item">
@@ -258,6 +1047,7 @@
                   <svg class="icon" height="20px" width="20px">
                     <use xlink:href="./assets/images/sprite.svg#dribbble"></use> 
                   </svg> 
+                  <span class="hidden">dribbble</span>
                 </a>
               </li>
             </ul>
